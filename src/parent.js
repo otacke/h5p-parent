@@ -1,4 +1,4 @@
-const Child = require('./child.js').default;
+const Child = require('./child.js');
 const EventDispatcher = H5P.EventDispatcher;
 
 /**
