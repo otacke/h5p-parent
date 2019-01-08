@@ -29,7 +29,7 @@ function Parent(constructor, parameters) {
    */
   self.addChild = function (childParameters, index) {
     if (index === undefined) {
-      index = self.children.length
+      index = self.children.length;
     }
 
     // Create a new child with the current instance as its parent
